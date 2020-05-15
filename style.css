@@ -2,6 +2,15 @@ body {
     font-family: 'EB Garamond', serif;
 }
 
+html {
+    position: relative;
+    min-width: 100%;
+}
+
+main {
+    margin: 80%;
+}
+
 .container, .navbar, .bg-light {
     background-color: rgb(245, 218, 231);
 }
@@ -9,4 +18,11 @@ body {
 .navbar-name, .nav-link {
     color: rgb(59, 58, 58);
     font-size: 20px;
+}
+
+.form-row {
+    width: 600px;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+     
 }
