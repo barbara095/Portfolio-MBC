@@ -1,28 +1,48 @@
 body {
+    /* Typography */
     font-family: 'EB Garamond', serif;
+    line-height: 1.5;
 }
 
 html {
+    /* Positioning */
     position: relative;
-    min-width: 100%;
+    max-width: 100%;
 }
 
 main {
-    margin: 80%;
+    margin: 0;
 }
 
-.container, .navbar, .bg-light {
-    background-color: rgb(245, 218, 231);
+#logo {
+    font-size: 28px;
+    color: #fff;
+}
+#navbar-full.container {
+    background-color: rgb(102, 181, 201);
+    max-width: 100%;
 }
 
-.navbar-name, .nav-link {
-    color: rgb(59, 58, 58);
-    font-size: 20px;
+#navbarTogglerDemo01{
+    color: #fff;
+    font-size: 24px;
 }
 
 .form-row {
     width: 600px;
     margin: 0 auto 0 auto;
     padding: 10px;
-     
+    background-color: #fff;
+    color: rgb(39, 39, 39);
+    align-self: center;
+    display: inline-block;
+}
+
+.footer {
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(104, 103, 103);
+    color: #fff;
 }
