@@ -30,12 +30,17 @@ main {
 
 .form-row {
     width: 600px;
-    margin: 0 auto 0 auto;
+    margin: 20px;
     padding: 10px;
     background-color: #fff;
     color: rgb(39, 39, 39);
-    align-self: center;
+    position: absolute;
     display: inline-block;
+}
+
+.btn-primary {
+    background-color: rgb(102, 181, 201);
+    border-color: rgb(102, 181, 201);
 }
 
 .footer {
