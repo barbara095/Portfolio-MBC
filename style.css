@@ -1,3 +1,4 @@
+/* START STYLING FOR ALL PAGES */
 body {
     /* Typography */
     font-family: 'EB Garamond', serif;
@@ -12,6 +13,7 @@ html {
 
 main {
     margin: 0;
+    padding: 15px;
 }
 
 #logo {
@@ -28,21 +30,43 @@ main {
     font-size: 24px;
 }
 
+/* Styling for block headers */
+.block-header {
+    color: rgb(102, 181, 201);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+/* END STYLING FOR ALL PAGES */
+
+/* START STYLING FOR INDEX.HTML (ABOUT ME) */
 .form-row {
-    width: 600px;
+    width: 100%;
     margin: 20px;
+    margin-bottom: 30px;
     padding: 10px;
     background-color: #fff;
     color: rgb(39, 39, 39);
-    position: absolute;
+    position: relative;
     display: inline-block;
 }
 
+#image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+/* END STYLING FOR INDEX.HTML (ABOUT ME) */
+
+/* START STYLING FOR CONTACT.HTML (CONTACT) */
 .btn-primary {
     background-color: rgb(102, 181, 201);
     border-color: rgb(102, 181, 201);
 }
+/* END STYLING FOR CONTACT.HTML (CONTACT) */
 
+/* STYLING FOR FOOTER */
 .footer {
     clear: both;
     position: fixed;
