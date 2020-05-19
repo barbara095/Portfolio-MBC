@@ -40,7 +40,7 @@ main {
 
 .footer {
     clear: both;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: rgb(104, 103, 103);
