@@ -15,6 +15,7 @@ main {
     margin-left: 20px;
     margin-right: 20px;
     padding: 15px;
+    width: 600px;
 }
 
 #logo {
@@ -44,7 +45,7 @@ main {
 /* START STYLING FOR PORTFOLIO PAGE */
 
 .port-image {
-    margin: 20px;
+    margin: 20px auto;
 }
 
 /* END STYLING FOR PORTFOLIO PAGE */
@@ -72,7 +73,7 @@ main {
 /* START STYLING FOR INDEX.HTML (ABOUT ME) */
 .form-row {
     width: 100%;
-    margin: auto;
+    margin-bottom: 20px;
     padding: 10px;
     background-color: #fff;
     color: rgb(39, 39, 39);
@@ -100,5 +101,9 @@ main {
     bottom: 0;
     width: 100%;
     background-color: rgb(160, 160, 160);
+}
+
+.text-muted-footer {
     color: #fff;
 }
+  
