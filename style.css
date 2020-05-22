@@ -22,6 +22,7 @@ main {
 }
 #navbar-full.container {
     background-color: rgb(102, 181, 201);
+    color: #fff;
     max-width: 100%;
 }
 
@@ -53,25 +54,41 @@ main {
 
 #image {
     float: left;
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-color: skyblue;
+    border-width: 20px;
 }
 /* END STYLING FOR INDEX.HTML (ABOUT ME) */
 
 /* START STYLING FOR CONTACT.HTML (CONTACT) */
+
 .btn-primary {
     background-color: rgb(102, 181, 201);
     border-color: rgb(102, 181, 201);
 }
+
+.btn-primary:hover {
+    background-color: rgb(241, 209, 214);
+    border-color: rgb(241, 209, 214);
+}
+
+.btn-primary:active {
+    background-color: rgb(35, 58, 158);
+    border-color: rgb(35, 58, 158);
+}
+
 /* END STYLING FOR CONTACT.HTML (CONTACT) */
 
 /* STYLING FOR FOOTER */
 .footer {
     clear: both;
     position: fixed;
+    height: 50px;
     bottom: 0;
     width: 100%;
-    background-color: rgb(104, 103, 103);
+    background-color: rgb(160, 160, 160);
     color: #fff;
 }
