@@ -12,7 +12,8 @@ html {
 }
 
 main {
-    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 15px;
 }
 
@@ -40,28 +41,14 @@ main {
 
 /* END STYLING FOR ALL PAGES */
 
-/* START STYLING FOR INDEX.HTML (ABOUT ME) */
-.form-row {
-    width: 100%;
+/* START STYLING FOR PORTFOLIO PAGE */
+
+.port-image {
     margin: 20px;
-    margin-bottom: 30px;
-    padding: 10px;
-    background-color: #fff;
-    color: rgb(39, 39, 39);
-    position: relative;
-    display: inline-block;
 }
 
-#image {
-    float: left;
-    width: 250px;
-    height: 250px;
-    margin-left: 5px;
-    margin-top: 10px;
-    border-color: skyblue;
-    border-width: 20px;
-}
-/* END STYLING FOR INDEX.HTML (ABOUT ME) */
+/* END STYLING FOR PORTFOLIO PAGE */
+
 
 /* START STYLING FOR CONTACT.HTML (CONTACT) */
 
@@ -82,11 +69,34 @@ main {
 
 /* END STYLING FOR CONTACT.HTML (CONTACT) */
 
+/* START STYLING FOR INDEX.HTML (ABOUT ME) */
+.form-row {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    background-color: #fff;
+    color: rgb(39, 39, 39);
+    position: relative;
+    display: inline-block;
+}
+
+#image {
+    float: left;
+    width: 220px;
+    height: 220px;
+    margin-left: 5px;
+    margin-top: 40px;
+    border-color: rgb(228, 221, 221);
+    border-width: 4px;
+    border-style: solid;
+}
+/* END STYLING FOR INDEX.HTML (ABOUT ME) */
+
 /* STYLING FOR FOOTER */
 .footer {
     clear: both;
     position: fixed;
-    height: 50px;
+    height: 40px;
     bottom: 0;
     width: 100%;
     background-color: rgb(160, 160, 160);
