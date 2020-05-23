@@ -45,17 +45,29 @@ main {
 /* START STYLING FOR PORTFOLIO PAGE */
 .row {
     width: auto;
-    margin: 10px;
+    margin: 20px auto;
 }
 
 .card-title {
-    font-size: 24px;
-    font-weight: 400;
-    color: rgb(122, 62, 109)
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(102, 181, 201);
+}
+
+.card-text {
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-link {
+    color: rgb(36, 117, 170);
+    position: bottom;
+    text-align: center;
 }
 
 .img-fluid {
-    margin: 20px;
+    width: auto;
+    height: auto;
 }
 
 /* END STYLING FOR PORTFOLIO PAGE */
@@ -97,7 +109,7 @@ main {
     height: 220px;
     margin-left: 5px;
     margin-top: 40px;
-    border-color: rgb(228, 221, 221);
+    border-color: rgb(235, 211, 225);
     border-width: 4px;
     border-style: solid;
 }
