@@ -28,8 +28,8 @@ main {
     max-width: 100%;
 }
 
-#navbarTogglerDemo01{
-    color: #fff;
+.color-white {
+    color: #fff !important;
     font-size: 24px;
 }
 
