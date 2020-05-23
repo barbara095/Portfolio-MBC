@@ -44,8 +44,13 @@ main {
 
 /* START STYLING FOR PORTFOLIO PAGE */
 
-.port-image {
-    margin: 20px auto;
+.img-fluid {
+    margin: 20px;
+}
+
+#image-1 {
+    width: 350px;
+    height: 350px
 }
 
 /* END STYLING FOR PORTFOLIO PAGE */
