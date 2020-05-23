@@ -43,14 +43,19 @@ main {
 /* END STYLING FOR ALL PAGES */
 
 /* START STYLING FOR PORTFOLIO PAGE */
+.row {
+    width: auto;
+    margin: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(122, 62, 109)
+}
 
 .img-fluid {
     margin: 20px;
-}
-
-#image-1 {
-    width: 400px;
-    height: 200px;
 }
 
 /* END STYLING FOR PORTFOLIO PAGE */
