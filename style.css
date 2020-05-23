@@ -48,6 +48,10 @@ main {
     margin: 20px auto;
 }
 
+.card {
+    margin: 20px;
+}
+
 .card-title {
     font-size: 20px;
     font-weight: 700;
@@ -66,8 +70,8 @@ main {
 }
 
 .img-fluid {
-    width: auto;
-    height: auto;
+    width: 250px;
+    height: 160px;
 }
 
 /* END STYLING FOR PORTFOLIO PAGE */
