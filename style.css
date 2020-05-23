@@ -105,5 +105,8 @@ main {
 
 .text-muted-footer {
     color: #fff;
+    text-align: left;
+    margin-left: 15px;
+    bottom: 4;
 }
   
