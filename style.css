@@ -1,7 +1,7 @@
 /* START STYLING FOR ALL PAGES */
 body {
     /* Typography */
-    font-family: 'EB Garamond', serif;
+    font-family: 'Nanum Gothic', sans-serif;
     line-height: 1.5;
 }
 
@@ -19,23 +19,25 @@ main {
 }
 
 #logo {
-    font-size: 28px;
+    font-size: 24px;
     color: #fff;
 }
 #navbar-full.container {
-    background-color: rgb(102, 181, 201);
+    background-color: rgb(185, 107, 137);
     color: #fff;
     max-width: 100%;
+    font-size: 18px;
+    padding: 5px;
 }
 
 .color-white {
     color: #fff !important;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 /* Styling for block headers */
 .block-header {
-    color: rgb(102, 181, 201);
+    color: rgb(185, 107, 137);
     font-size: 28px;
     font-weight: 500;
 }
@@ -55,7 +57,7 @@ main {
 .card-title {
     font-size: 20px;
     font-weight: 700;
-    color: rgb(102, 181, 201);
+    color: rgb(185, 107, 137);
 }
 
 .card-text {
@@ -64,7 +66,7 @@ main {
 }
 
 .card-link {
-    color: rgb(36, 117, 170);
+    color: rgb(185, 107, 137);
     position: bottom;
     text-align: center;
 }
@@ -80,8 +82,8 @@ main {
 /* START STYLING FOR CONTACT.HTML (CONTACT) */
 
 .btn-primary {
-    background-color: rgb(102, 181, 201);
-    border-color: rgb(102, 181, 201);
+    background-color: rgb(185, 107, 137);
+    border-color: rgb(185, 107, 137);
 }
 
 .btn-primary:hover {
@@ -113,9 +115,6 @@ main {
     height: 220px;
     margin-left: 5px;
     margin-top: 40px;
-    border-color: rgb(235, 211, 225);
-    border-width: 4px;
-    border-style: solid;
 }
 /* END STYLING FOR INDEX.HTML (ABOUT ME) */
 
