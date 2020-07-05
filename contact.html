@@ -5,97 +5,121 @@
 
   <meta charset="UTF-8">
   <!-- Set page to be mobile responsive -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- link the Bootstrap stylesheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <!-- Link our css stylesheet -->
-  <link rel="stylesheet" href="style.css" media="screen">
+  <link rel="stylesheet" href="css/style.css" media="screen">
   <!-- Link Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
   <!-- link Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+
   <title>My Portfolio</title>
 
-  </head>
+</head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container" id="navbar-full">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <a class="navbar-name" href="index.html" id="logo">Barbara Potiriadis</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link color-white" href="index.html">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link color-white" href="portfolio.html">My Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active color-white" href="contact.html">Contact</a>
-            </li>
-            
-            
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container" id="navbar-full">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-name" href="index.html" id="logo">Barbara Potiriadis</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link color-white" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color-white" href="portfolio.html">My Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active color-white" href="contact.html">Contact</a>
+          </li>
+
+
+        </ul>
       </div>
-      <!-- /.container -->
-    </nav>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
 
-    <main class="container">
-      <section class="row">
-        <div class="col-md-8">
-          <form class="block form-horizontal">
-            <h1 class="block-header">Contact</h1>
-            <hr />
-        <div class="form-group col-sm-9">
-          <div class="form-group">
-            <label for="firstName" class="col-sm-4 control-label">First Name</label>
-            <input type="text" class="form-control" id="inputfirstname">
+  <main class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <form class="block form-horizontal">
+          <h1 class="block-header">Contact</h1>
+          <hr />
+          <div class="form-group col-sm-8">
+            <div class="form-group">
+              <label for="firstName" class="col-sm-4 control-label">First Name</label>
+              <input type="text" class="form-control" id="inputfirstname">
+            </div>
+            <label for="inputEmail4" class="col-sm-4 control-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
           </div>
-          <label for="inputEmail4" class="col-sm-4 control-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="form-group col-sm-9">
+          <div class="form-group col-sm-8">
             <label for="exampleFormControlTextarea1" class="col-sm-4 control-label">Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+      </div>
+      <div class="contact-panel col-md-4">
+        <div class="form-group">
+          <ul class="contact-text">
+            <li>Email address: barbarap095@gmail.com
+              <i class="fa fa-envelope-o" aria-hidden="true"></i></li>
+            <li>Phone number: 0411 796 102
+              <i class="fa fa-phone-square" aria-hidden="true"></i>
+            </li>
+          </ul>
         </div>
-        <button class="btn btn-primary" type="submit">Submit</button>
+        <div class="card" style="width: 18rem;">
+          <img src="Assets/images/linkedin.png" class="card-img-top" alt="linkedin">
+          <div class="card-body">
+            <h5 class="card-title">LinkedIn</h5>
+            <p class="card-text">Visit My LinkedIn page! Give a friendly follow and I'll be glad to follow back.</p>
+            <a href="https://www.linkedin.com/in/barbara-potiriadis/" class="btn btn-primary">Access</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="Assets/images/github.jpeg" class="card-img-top" alt="github">
+          <div class="card-body">
+            <h5 class="card-title">Github</h5>
+            <p class="card-text">Visit my Github profile to see more project repositories in my portfolio</p>
+            <a href="https://github.com/barbara095/" class="btn btn-primary">Access</a>
+          </div>
+        </div>
       </div>
-      <div class="form-group col-sm-3">
-        <p class="email">Email address: barbarap095@gmail.com 
-          <i class="fa fa-envelope-o" aria-hidden="true"></i></p>
-        <p class="phone-number">Phone number: 0411 796 102
-          <i class="fa fa-phone-square" aria-hidden="true"></i>
-        </p>
-        
       </div>
-    </form>
-  </section>
-</main>
+      </form>
+      </div>
+    </section>
+  </main>
 
 
-<!-- Start of footer -->
-<footer class="footer mt-auto py-3">
-  <div class="container">
-    <span class="text-muted">Copyright Barbara Potiriadis</span>
-  </div>
-</footer>
-<!-- End of footer -->
+  <!-- Start of footer -->
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <span class="text-muted">Copyright Barbara Potiriadis</span>
+    </div>
+  </footer>
+  <!-- End of footer -->
 
-<!-- jQuery CDN -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<!-- Bootstrap CDN -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </script>
 
 </body>
+
 </html>

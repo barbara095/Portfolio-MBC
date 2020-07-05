@@ -39,7 +39,11 @@ main {
 .block-header {
     color: rgb(185, 107, 137);
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 700;
+}
+
+.about-me {
+    font-size: 14px;
 }
 
 /* END STYLING FOR ALL PAGES */
@@ -47,22 +51,27 @@ main {
 /* START STYLING FOR PORTFOLIO PAGE */
 .row {
     width: auto;
-    margin: 20px auto;
+    margin: auto;
 }
 
 .card {
     margin: 20px;
+    float: left;
 }
 
 .card-title {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 800;
     color: rgb(185, 107, 137);
 }
 
 .card-text {
-    font-size: 14px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.card-body {
+    float: left;
 }
 
 .card-link {
@@ -72,8 +81,14 @@ main {
 }
 
 .img-fluid {
-    width: 250px;
-    height: 160px;
+    align-items: center;
+}
+
+.btn-primary-port {
+    font-size: 12px;
+    background-color: rgb(185, 107, 137);
+    border-color: rgb(185, 107, 137);
+    color: #fff;
 }
 
 /* END STYLING FOR PORTFOLIO PAGE */
@@ -81,9 +96,16 @@ main {
 
 /* START STYLING FOR CONTACT.HTML (CONTACT) */
 
+.form-horizontal{
+    border-right: 1px solid rgb(182, 182, 182);
+    height: 500px;
+}
+
 .btn-primary {
     background-color: rgb(185, 107, 137);
     border-color: rgb(185, 107, 137);
+    font-size: 14px;
+    padding: 5px;
 }
 
 .btn-primary:hover {
@@ -96,9 +118,31 @@ main {
     border-color: rgb(35, 58, 158);
 }
 
+.contact-panel {
+    background-color: rgb(156, 111, 128);
+}
+
+.contact-text {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    padding: 20px;
+    line-break: auto;
+}
+
+.card-img-top {
+    width: 50%;
+    height: 50%;
+    padding: 5px;
+}
+
 /* END STYLING FOR CONTACT.HTML (CONTACT) */
 
 /* START STYLING FOR INDEX.HTML (ABOUT ME) */
+.col-md-4 {
+    border-right: 1px solid rgb(182, 182, 182);
+    height: 500px;
+}
 .form-row {
     width: 100%;
     margin-bottom: 20px;
@@ -111,9 +155,10 @@ main {
 
 #image {
     float: left;
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     margin-left: 5px;
+    margin-right: 5px;
     margin-top: 40px;
 }
 /* END STYLING FOR INDEX.HTML (ABOUT ME) */
