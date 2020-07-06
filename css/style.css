@@ -1,7 +1,7 @@
 /* START STYLING FOR ALL PAGES */
 body {
     /* Typography */
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Playfair Display', serif;
     line-height: 1.5;
 }
 
@@ -42,9 +42,6 @@ main {
     font-weight: 700;
 }
 
-.about-me {
-    font-size: 14px;
-}
 
 /* END STYLING FOR ALL PAGES */
 
@@ -54,9 +51,12 @@ main {
     margin: auto;
 }
 
-.card {
+.card-port {
     margin: 20px;
     float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(179, 106, 116);
 }
 
 .card-title {
@@ -67,7 +67,7 @@ main {
 
 .card-text {
     font-size: 12px;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .card-body {
@@ -89,6 +89,7 @@ main {
     background-color: rgb(179, 106, 116);
     border-color: rgb(179, 106, 116);
     color: #fff;
+    margin-top: 10px;
 }
 
 /* END STYLING FOR PORTFOLIO PAGE */
@@ -130,12 +131,6 @@ main {
     line-break: auto;
 }
 
-.card-img-top {
-    width: 50%;
-    height: 50%;
-    padding: 5px;
-}
-
 /* END STYLING FOR CONTACT.HTML (CONTACT) */
 
 /* START STYLING FOR INDEX.HTML (ABOUT ME) */
@@ -161,6 +156,21 @@ main {
     margin-right: 5px;
     margin-top: 40px;
 }
+
+.card-img-top {
+    width: 50%;
+    height: 50%;
+    padding: 5px;
+    float: left;
+}
+
+.card-body {
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+}
+.about-me {
+    font-size: 14px;
+}
 /* END STYLING FOR INDEX.HTML (ABOUT ME) */
 
 /* STYLING FOR FOOTER */
@@ -173,10 +183,12 @@ main {
     background-color: rgb(160, 160, 160);
 }
 
-.text-muted-footer {
+.text-muted {
     color: #fff;
     text-align: left;
     margin-left: 15px;
     bottom: 4;
 }
+
+
   
