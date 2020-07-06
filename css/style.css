@@ -66,7 +66,7 @@ main {
 }
 
 .card-text {
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Playfair Display', serif;
 }
 
@@ -124,7 +124,7 @@ main {
 }
 
 .contact-text {
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
     font-weight: 300;
     padding: 20px;
