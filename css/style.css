@@ -3,12 +3,16 @@ body {
     /* Typography */
     font-family: 'Playfair Display', serif;
     line-height: 1.5;
+    height: 100%;
+    padding-bottom: 50px;
 }
 
 html {
     /* Positioning */
     position: relative;
     max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 50px;
 }
 
 main {
@@ -124,11 +128,16 @@ main {
 }
 
 .contact-text {
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     font-weight: 300;
     padding: 20px;
     line-break: auto;
+}
+
+.col-md-3 {
+    border-right: 1px solid rgb(182, 182, 182);
+    height: 140px;
 }
 
 /* END STYLING FOR CONTACT.HTML (CONTACT) */
@@ -136,7 +145,7 @@ main {
 /* START STYLING FOR INDEX.HTML (ABOUT ME) */
 .col-md-4 {
     border-right: 1px solid rgb(182, 182, 182);
-    height: 500px;
+    height: 600px;
 }
 .form-row {
     width: 100%;
@@ -169,14 +178,31 @@ main {
     margin: 20px;
 }
 .about-me {
-    font-size: 16px;
+    font-size: 14px;
 }
+
+.card-contact {
+    margin: 0 auto 0 auto;
+    position: left;
+    background-color: lightslategray;
+}
+
+#access-btn {
+    background-color: rgb(179, 106, 116);
+    border-color: rgb(179, 106, 116);
+    font-size: 14px;
+    padding: 5px;
+    margin: 10px;
+}
+
+
 /* END STYLING FOR INDEX.HTML (ABOUT ME) */
 
 /* STYLING FOR FOOTER */
 .footer {
-    clear: both;
+    /* clear: both; */
     position: fixed;
+    margin-top: 20px;
     height: 40px;
     bottom: 0;
     width: 100%;
