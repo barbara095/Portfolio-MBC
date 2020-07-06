@@ -23,7 +23,7 @@ main {
     color: #fff;
 }
 #navbar-full.container {
-    background-color: rgb(185, 107, 137);
+    background-color: rgb(179, 106, 116);
     color: #fff;
     max-width: 100%;
     font-size: 18px;
@@ -37,7 +37,7 @@ main {
 
 /* Styling for block headers */
 .block-header {
-    color: rgb(185, 107, 137);
+    color: rgb(179, 106, 116);
     font-size: 28px;
     font-weight: 700;
 }
@@ -62,7 +62,7 @@ main {
 .card-title {
     font-size: 16px;
     font-weight: 800;
-    color: rgb(185, 107, 137);
+    color: rgb(179, 106, 116);
 }
 
 .card-text {
@@ -75,7 +75,7 @@ main {
 }
 
 .card-link {
-    color: rgb(185, 107, 137);
+    color: rgb(179, 106, 116);
     position: bottom;
     text-align: center;
 }
@@ -86,8 +86,8 @@ main {
 
 .btn-primary-port {
     font-size: 12px;
-    background-color: rgb(185, 107, 137);
-    border-color: rgb(185, 107, 137);
+    background-color: rgb(179, 106, 116);
+    border-color: rgb(179, 106, 116);
     color: #fff;
 }
 
@@ -102,8 +102,8 @@ main {
 }
 
 .btn-primary {
-    background-color: rgb(185, 107, 137);
-    border-color: rgb(185, 107, 137);
+    background-color: rgb(179, 106, 116);
+    border-color: rgb(179, 106, 116);
     font-size: 14px;
     padding: 5px;
 }
@@ -119,7 +119,7 @@ main {
 }
 
 .contact-panel {
-    background-color: rgb(156, 111, 128);
+    background-color: rgb(206, 142, 151);
 }
 
 .contact-text {
