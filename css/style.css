@@ -27,7 +27,7 @@ main {
     color: #fff;
 }
 #navbar-full.container {
-    background-color: rgb(179, 106, 116);
+    background-color: rgb(158, 91, 108);
     color: #fff;
     max-width: 100%;
     font-size: 18px;
@@ -42,7 +42,7 @@ main {
 
 /* Styling for block headers */
 .block-header {
-    color: rgb(179, 106, 116);
+    color: rgb(158, 91, 108);
     font-size: 28px;
     font-weight: 500;
 }
@@ -60,14 +60,14 @@ main {
     float: left;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(179, 106, 116);
+    border-color: rgb(158, 91, 108);
 }
 
 .card-title {
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     font-weight: bolder;
-    color: rgb(179, 106, 116);
+    color: rgb(158, 91, 108);
 }
 
 .card-text {
@@ -80,7 +80,7 @@ main {
 }
 
 .card-link {
-    color: rgb(179, 106, 116);
+    color: rgb(158, 91, 108);
     position: bottom;
     text-align: center;
 }
@@ -92,8 +92,8 @@ main {
 .btn-primary-port {
     font-family: 'Quicksand', sans-serif;
     font-size: 12px;
-    background-color: rgb(179, 106, 116);
-    border-color: rgb(179, 106, 116);
+    background-color: rgb(158, 91, 108);
+    border-color: rgb(158, 91, 108);
     color: #fff;
     margin-top: 10px;
     bottom: 2;
@@ -112,8 +112,8 @@ main {
 
 .btn-primary {
     font-family: 'Quicksand', sans-serif;
-    background-color: rgb(179, 106, 116);
-    border-color: rgb(179, 106, 116);
+    background-color: rgb(158, 91, 108);
+    border-color: rgb(158, 91, 108);
     font-size: 14px;
     padding: 5px;
 }
@@ -129,7 +129,7 @@ main {
 }
 
 .contact-panel {
-    background-color: rgb(206, 142, 151);
+    background-color: rgb(158, 91, 108);
 }
 
 .contact-text {
@@ -150,9 +150,8 @@ main {
 /* START STYLING FOR INDEX.HTML (ABOUT ME) */
 
 .jumbotron {
-    background-image: url("/Users/barbpotiriadis/Web Development Boot Camp/Assignments/portfolio-bootcamp/Assets/images/long-view-of-new-york-city.jpg");
-    background-size: cover;
-    height: 350px;
+    background-color: rgb(204, 204, 204);
+    color: #fff;
   }
 
 .col-md-4 {
@@ -181,8 +180,8 @@ main {
 }
 
 #access-btn {
-    background-color: rgb(179, 106, 116);
-    border-color: rgb(179, 106, 116);
+    background-color: rgb(158, 91, 108);
+    border-color: rgb(158, 91, 108);
     font-size: 14px;
     padding: 5px;
     margin: 10px;
