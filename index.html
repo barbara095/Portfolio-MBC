@@ -10,10 +10,15 @@
   <!-- link the Bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- link Semantic UI -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
   <!-- Link our css stylesheet -->
   <link rel="stylesheet" href="css/style.css" media="screen">
   <!-- Link Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quicksand&display=swap"
+    rel="stylesheet">
   <!-- link Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -48,6 +53,12 @@
   </nav>
 
   <main class="container">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Welcome to my portfolio</h1>
+        <p class="lead">Take a look around, view my projects and feel free to reach out!</p>
+      </div>
+    </div>
     <section class="row">
       <div class="col-md-8">
         <article class="block">
@@ -78,31 +89,39 @@
         </article>
       </div>
       <div class="contact-panel col-md-4">
-        <div class="form-group">
-          <div class="card" style="width: 12rem;">
-            <div class="card-body">
-              <h5 class="card-title">Resume</h5>
-              <i class="fa fa-id-badge" aria-hidden="true"></i>
-              <a href="Assets/Resume.pdf" target="_blank" class="btn btn-primary" id="access-btn">Access</a>
+        <div class="form-contact">
+          <div class="ui list">
+            <div class="item">
+              <i class="user icon"></i>
+              <div class="content">
+                Resume </br> <a href="Assets/Resume.pdf" target="_blank" class="btn btn-primary" id="access-btn">Access</a>
+              </div>
+            </div>
+            <div class="item">
+              <i class="marker icon"></i>
+              <div class="content">
+                Melbourne, VIC
+              </div>
+            </div>
+            <div class="item">
+              <i class="mail icon"></i>
+              <div class="content">
+                <a href="mailto:barbarap095@gmail.com">barbarap095@gmail.com</a>
+              </div>
+            </div>
+            <div class="item">
+              <i class="linkedin icon"></i>
+              <div class="content">
+                <a href="https://www.linkedin.com/in/barbara-potiriadis/">My LinkedIn</a>
+              </div>
+            </div>
+            <div class="item">
+              <i class="github icon"></i>
+              <div class="content">
+                <a href="https://github.com/barbara095/">My Github</a>
+              </div>
             </div>
           </div>
-          <div class="card-contact">
-            <div class="card-body" style="width: 18rem;">
-              <h5 class="card-title">LinkedIn</h5>
-              <img src="Assets/images/linkedin.png" class="card-img-top" alt="linkedin" style="height: 50px; width: 50px;"></img>
-              <p class="card-text">Visit My LinkedIn page! Give a friendly follow and I'll be glad to follow back.</p>
-              <a href="https://www.linkedin.com/in/barbara-potiriadis/" class="btn btn-primary">Access</a>
-            </div>
-          </div>
-          <!-- <div class="card-contact" style="width: 18rem;">
-            <div class="card-body" float="left"> -->
-              <h5 class="card-title">Github</h5>
-              <img src="Assets/images/github.jpeg" class="card-img-top" alt="github"></img>
-              <p class="card-text">Visit my Github profile to see more project repositories in my portfolio</p>
-              <a href="https://github.com/barbara095/" class="btn btn-primary">Access</a>
-            <!-- </div>
-          </div> -->
-        </br>
         </div>
       </div>
     </section>
