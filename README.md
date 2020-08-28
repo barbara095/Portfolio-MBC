@@ -8,7 +8,7 @@ The portfolio is organised as follows:
 - I utilised Bootstrap to incorporate items such as a navbar, contact form, cards, grid layouts and a sticky footer on all pages - to ensure it stays fixed irrespective of where you are on the page.
 
 Link to portfolio: 
-https://barbara095.github.io/portfolio/
+https://barbara095.github.io/Portfolio-MBC/
 
 
 
