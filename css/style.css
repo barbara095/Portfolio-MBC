@@ -21,7 +21,7 @@ body::-webkit-scrollbar, .imgrev::before {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: rgb(231, 157, 107);
+    background: rgb(231, 142, 107);
     height: 1px;
 }
 
@@ -84,7 +84,7 @@ section img {
 
 #main-name {
     position: relative;
-    color: rgb(231, 157, 107);
+    color: rgb(231, 142, 107);
     font-size: 6em;
     font-weight: 500;
     z-index: 1;
@@ -111,12 +111,21 @@ section img {
     color: rgb(255, 198, 215);
 }
 
+.form-contact {
+  background-blend-mode: soft-light;
+  background-color: lightcoral;
+  margin-left: 20px;
+  border-radius: 150px;
+  height: 200px;
+  width: 260px;
+}
+
 /* #navbar-full.container {
     background-color: rgb(28, 39, 61);
     color: rgb(255, 198, 215);
     max-width: 100%;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 30
     padding: 5px;
 } */
 
@@ -224,7 +233,7 @@ section img {
     color: #fff;
     font-weight: 300;
     padding: 20px;
-    line-break: auto;
+    display: flex;
 }
 
 .col-md-3 {
@@ -233,6 +242,11 @@ section img {
 
 .col-md-8 {
     color: #fff;
+}
+
+.form-control {
+    background-color: rgb(231, 157, 107);
+    border: 0vh;
 }
 
 
