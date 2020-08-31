@@ -1,50 +1,140 @@
 /* START STYLING FOR ALL PAGES */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     /* Typography */
     font-family: 'Quicksand', sans-serif;
-    line-height: 1.5;
+    line-height: 1.5; 
     height: 100%;
     padding-bottom: 50px;
+    left: 0;
+    right: 0;
+    min-height: 900px;
+    background-color: rgb(26, 15, 51) !important;
+}
+
+body::-webkit-scrollbar, .imgrev::before {
+    background: rgb(26, 15, 51);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(231, 157, 107);
+    height: 1px;
 }
 
 html {
-    /* Positioning */
     position: relative;
     max-width: 100%;
     max-height: 100%;
     padding-bottom: 50px;
+    left: 0;
+    right: 0;
 }
 
 main {
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 15px;
-    width: 600px;
+    left: 0;
+    right: 0;
+    width: 100% !important;
+    background-color: rgb(26, 15, 51);
+}
+
+.container {
+    background-color: rgb(26, 15, 51);
+    max-width: 100% !important;
+    padding: 10px;
+} 
+
+.intro {
+    background-color: rgb(26, 15, 51);
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #0a2a43);
+    z-index: 10000;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#main-name {
+    position: relative;
+    color: rgb(231, 157, 107);
+    font-size: 6em;
+    font-weight: 500;
+    z-index: 1;
+    margin-right: 2.6em;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+#mountain1 {
+    position: absolute;
+    left: 30%;
+    width: 100%;
+    transform: translateX(-50%);
+    z-index: 2;
+    fill-opacity: inherit;
+}
+
+#mountain2 {
+    z-index: 3;
 }
 
 #logo {
     font-size: 24px;
-    color: #fff;
+    color: rgb(255, 198, 215);
 }
-#navbar-full.container {
-    background-color: rgb(158, 91, 108);
-    color: #fff;
+
+/* #navbar-full.container {
+    background-color: rgb(28, 39, 61);
+    color: rgb(255, 198, 215);
     max-width: 100%;
     font-size: 18px;
     font-weight: 300;
     padding: 5px;
+} */
+
+.navbar-light {
+    background-color: #fff;
 }
 
 .color-white {
-    color: #fff !important;
+    color: rgb(255, 198, 215) !important;
     font-size: 18px;
 }
 
 /* Styling for block headers */
 .block-header {
-    color: rgb(158, 91, 108);
+    color: rgb(216, 140, 123);
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 100;
+    margin-left: 20px;
 }
 
 /* END STYLING FOR ALL PAGES */
@@ -60,19 +150,24 @@ main {
     float: left;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(158, 91, 108);
+    border-color: rgb(216, 140, 123);
 }
 
 .card-title {
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     font-weight: bolder;
-    color: rgb(158, 91, 108);
+    color: rgb(216, 140, 123);
 }
 
 .card-text {
     font-size: 14px;
     font-family: 'Quicksand', sans-serif;
+    color: rgb(241, 209, 214);
+}
+
+.content {
+    color: rgb(241, 209, 214);
 }
 
 .card-body {
@@ -80,7 +175,7 @@ main {
 }
 
 .card-link {
-    color: rgb(158, 91, 108);
+    color: rgb(216, 140, 123);
     position: bottom;
     text-align: center;
 }
@@ -92,8 +187,8 @@ main {
 .btn-primary-port {
     font-family: 'Quicksand', sans-serif;
     font-size: 12px;
-    background-color: rgb(158, 91, 108);
-    border-color: rgb(158, 91, 108);
+    background-color: rgb(216, 140, 123);
+    border-color: rgb(216, 140, 123);
     color: #fff;
     margin-top: 10px;
     bottom: 2;
@@ -105,15 +200,10 @@ main {
 
 /* START STYLING FOR CONTACT.HTML (CONTACT) */
 
-.form-horizontal{
-    border-right: 1px solid rgb(182, 182, 182);
-    height: 500px;
-}
-
 .btn-primary {
     font-family: 'Quicksand', sans-serif;
-    background-color: rgb(158, 91, 108);
-    border-color: rgb(158, 91, 108);
+    background-color: rgb(216, 140, 123);
+    border-color: rgb(216, 140, 123);
     font-size: 14px;
     padding: 5px;
 }
@@ -126,10 +216,6 @@ main {
 .btn-primary:active {
     background-color: rgb(35, 58, 158);
     border-color: rgb(35, 58, 158);
-}
-
-.contact-panel {
-    background-color: rgb(158, 91, 108);
 }
 
 .contact-text {
@@ -145,58 +231,36 @@ main {
     height: 140px;
 }
 
+.col-md-8 {
+    color: #fff;
+}
+
+
 /* END STYLING FOR CONTACT.HTML (CONTACT) */
+
 
 /* START STYLING FOR INDEX.HTML (ABOUT ME) */
 
-.jumbotron {
-    background-color: rgb(204, 204, 204);
-    color: #fff;
+.about-me {
     position: relative;
-    z-index: 1;
-    overflow: hidden;
-  }
-
-  #video-background { 
-    position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            overflow: hidden;
-            z-index: 1;
-            width: 100%;
-            text-overflow: initial;
-}
-
-.col-md-4 {
-    border-right: 1px solid rgb(182, 182, 182);
-    height: 600px;
+    float: left;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(219, 167, 155);
+    margin-left: 40px;
 }
 
 #image {
-    float: left;
+    float: right;
+    position: absolute;
     width: 180px;
     height: 180px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 40px;
-}
-
-.form-contact {
-    background-color: rgb(255, 255, 255);
-    margin-top: 10px;
-    padding: 10px;
-}
-
-.about-me {
-    font-size: 14px;
-    font-family: 'Quicksand', sans-serif;
+    margin: 20px;
 }
 
 #access-btn {
-    background-color: rgb(158, 91, 108);
-    border-color: rgb(158, 91, 108);
+    background-color: rgb(216, 140, 123);
+    border-color: rgb(216, 140, 123);
     font-size: 14px;
     padding: 5px;
     margin: 10px;
@@ -207,20 +271,25 @@ main {
 
 /* STYLING FOR FOOTER */
 .footer {
-    /* clear: both; */
-    position: fixed;
-    margin-top: 20px;
-    height: 40px;
+    height: 120px;
     bottom: 0;
     width: 100%;
-    background-color: rgb(160, 160, 160);
+    background-color: rgb(17, 16, 34);
+    align-items: center;
+    justify-content: center;
+    border-top-style: solid;
+    border-top-color: rgb(216, 140, 123);
+    border-width: 1px;
 }
 
-.text-muted {
+.text {
+    position: absolute;
     color: #fff;
-    text-align: left;
-    margin-left: 15px;
+    text-align: center;
+    margin-top: 40px;
     bottom: 4;
+    align-items: center;
+    justify-content: center;
 }
 
 

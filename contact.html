@@ -13,25 +13,49 @@
   <!-- Link our css stylesheet -->
   <link rel="stylesheet" href="css/style.css" media="screen">
   <!-- Link Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quicksand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quicksand&display=swap"
+    rel="stylesheet">
   <!-- link Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- link Semantic UI -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <!-- link UIkit -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
+
+
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 
   <title>My Portfolio</title>
 
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <nav class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-left">
+
+      <ul class="uk-navbar-nav">
+        <li>
+          <a href="index.html">Bio.</a>
+        </li>
+        <li>
+          <a href="portfolio.html">Portfolio.</a>
+        </li>
+        <li><a href="contact.html">Contact.</a></li>
+      </ul>
+
+    </div>
+  </nav>
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light" id="complete-nav">
     <div class="container" id="navbar-full">
       <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-name" href="index.html" id="logo">Barbara Potiriadis</a>
+  <!-- <a class="navbar-name" href="index.html" id="logo">Barbara Potiriadis</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      </button> -->
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
             <a class="nav-link color-white" href="index.html">About Me</a>
@@ -43,16 +67,15 @@
             <a class="nav-link active color-white" href="contact.html">Contact</a>
           </li>
 
-
         </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-  </nav>
+      </div> --> -->
+  <!-- /.navbar-collapse -->
+  <!-- </div> -->
+  <!-- /.container -->
+  <!-- </nav> -->
 
   <main class="container">
-    <section class="row">
+    <section class="row-contact">
       <div class="col-md-8">
         <form class="block form-horizontal">
           <h1 class="block-header">Contact.</h1>
@@ -69,7 +92,7 @@
             <label for="exampleFormControlTextarea1" class="col-sm-4 control-label">Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
           </div>
-          <button class="btn btn-primary" type="submit">Submit</button>
+          <button class="btn btn-primary enabled" type="submit">Submit</button>
       </div>
       <div class="contact-panel col-md-3">
         <div class="form-group">
@@ -81,7 +104,6 @@
             </li>
           </ul>
         </div>
-
       </div>
       </div>
       </form>
@@ -91,10 +113,8 @@
 
 
   <!-- Start of footer -->
-  <footer class="footer mt-auto py-3">
-    <div class="container">
-      <span class="text-muted">Copyright Barbara Potiriadis</span>
-    </div>
+  <footer class="footer">
+      <span class="text">Copyright Barbara Potiriadis</span>
   </footer>
   <!-- End of footer -->
 
