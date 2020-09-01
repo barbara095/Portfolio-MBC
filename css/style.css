@@ -183,7 +183,7 @@ section img {
     border-color: rgb(216, 140, 123);
     color: #fff;
     margin-top: 10px;
-    bottom: 2;
+    /* bottom: 2; */
 }
 
 /* END STYLING FOR PORTFOLIO PAGE */
@@ -210,12 +210,17 @@ section img {
     border-color: rgb(35, 58, 158);
 }
 
+#resume-btn {
+    background-color: rgb(26, 15, 51);
+    border-color: rgb(26, 15, 51);
+}
+
 .contact-text {
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     color: #fff;
     font-weight: 300;
-    padding: 20px;
+    /* padding: 20px; */
     /* display: flex; */
 }
 
@@ -273,6 +278,7 @@ section img {
 
 .icon {
     color: #fff;
+    align-self: center;
 }
 /* END STYLING FOR INDEX.HTML (ABOUT ME) */
 
@@ -282,7 +288,6 @@ section img {
     bottom: 0;
     width: 100%;
     background-color: rgb(17, 16, 34);
-    /* text-align: center; */
     justify-content: center;
     margin: 0 auto, 0 auto;
 }
@@ -290,6 +295,7 @@ section img {
 .footer-header {
     color: #fff;
     padding: 15px;
+    margin: 0 auto 0 auto;
 }
 
 .footer-text {
