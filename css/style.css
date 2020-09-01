@@ -111,14 +111,14 @@ section img {
     color: rgb(255, 198, 215);
 }
 
-.form-contact {
+/* .form-contact {
   background-blend-mode: soft-light;
   background-color: lightcoral;
   margin-left: 20px;
   border-radius: 150px;
   height: 200px;
   width: 260px;
-}
+} */
 
 /* #navbar-full.container {
     background-color: rgb(28, 39, 61);
@@ -214,7 +214,7 @@ section img {
     background-color: rgb(216, 140, 123);
     border-color: rgb(216, 140, 123);
     font-size: 14px;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 .btn-primary:hover {
@@ -233,7 +233,7 @@ section img {
     color: #fff;
     font-weight: 300;
     padding: 20px;
-    display: flex;
+    /* display: flex; */
 }
 
 .col-md-3 {
@@ -280,30 +280,35 @@ section img {
     margin: 10px;
 }
 
+.icon {
+    color: #fff;
+}
+
 
 /* END STYLING FOR INDEX.HTML (ABOUT ME) */
 
 /* STYLING FOR FOOTER */
 .footer {
-    height: 120px;
+    height: 180px;
     bottom: 0;
     width: 100%;
     background-color: rgb(17, 16, 34);
-    align-items: center;
+    /* text-align: center; */
     justify-content: center;
-    border-top-style: solid;
-    border-top-color: rgb(216, 140, 123);
-    border-width: 1px;
+    margin: 0 auto, 0 auto;
 }
 
-.text {
+.footer-header {
+    color: #fff;
+    padding: 15px;
+}
+
+.footer-text {
     position: absolute;
     color: #fff;
-    text-align: center;
     margin-top: 40px;
     bottom: 4;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto 0 auto;
 }
 
 
