@@ -111,24 +111,6 @@ section img {
     color: rgb(255, 198, 215);
 }
 
-/* .form-contact {
-  background-blend-mode: soft-light;
-  background-color: lightcoral;
-  margin-left: 20px;
-  border-radius: 150px;
-  height: 200px;
-  width: 260px;
-} */
-
-/* #navbar-full.container {
-    background-color: rgb(28, 39, 61);
-    color: rgb(255, 198, 215);
-    max-width: 100%;
-    font-size: 18px;
-    font-weight: 30
-    padding: 5px;
-} */
-
 .navbar-light {
     background-color: #fff;
 }
@@ -142,7 +124,7 @@ section img {
 .block-header {
     color: rgb(216, 140, 123);
     font-size: 40px;
-    font-weight: 100;
+    font-weight: 500;
     margin-left: 20px;
 }
 
@@ -181,6 +163,7 @@ section img {
 .card-body {
     float: left;
     justify-content: space-between;
+    
 }
 
 .card-link {
@@ -249,6 +232,14 @@ section img {
     border: 0vh;
 }
 
+.form-contact {
+    background: rgb(231, 142, 107);
+    border-radius: 150px;
+    height: 180px;
+    width: 180px;
+    text-align: center;
+}
+
 
 /* END STYLING FOR CONTACT.HTML (CONTACT) */
 
@@ -283,8 +274,6 @@ section img {
 .icon {
     color: #fff;
 }
-
-
 /* END STYLING FOR INDEX.HTML (ABOUT ME) */
 
 /* STYLING FOR FOOTER */
