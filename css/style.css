@@ -14,6 +14,8 @@ body {
     right: 0;
     min-height: 900px;
     background-color: rgb(26, 15, 51) !important;
+    color: 
+    rgb(216, 140, 123);
 }
 
 body::-webkit-scrollbar, .imgrev::before {
@@ -49,7 +51,22 @@ main {
 
 .intro {
     background-color: rgb(26, 15, 51);
+    padding-top: 70px;
 }
+
+.block {
+    margin-right: 5px;
+}
+
+.block-projects {
+    padding-top: 80px;
+}
+
+.row-contact {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
 
 section {
     position: relative;
@@ -106,19 +123,6 @@ section img {
     z-index: 3;
 }
 
-#logo {
-    font-size: 24px;
-    color: rgb(255, 198, 215);
-}
-
-.navbar-light {
-    background-color: #fff;
-}
-
-.color-white {
-    color: rgb(255, 198, 215) !important;
-    font-size: 18px;
-}
 
 /* Styling for block headers */
 .block-header {
@@ -213,6 +217,8 @@ section img {
 #resume-btn {
     background-color: rgb(26, 15, 51);
     border-color: rgb(26, 15, 51);
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .contact-text {
@@ -284,12 +290,13 @@ section img {
 
 /* STYLING FOR FOOTER */
 .footer {
-    height: 180px;
+    height: 250px;
     bottom: 0;
     width: 100%;
     background-color: rgb(17, 16, 34);
     justify-content: center;
-    margin: 0 auto, 0 auto;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .footer-header {
@@ -306,5 +313,3 @@ section img {
     margin: 0 auto 0 auto;
 }
 
-
-  
