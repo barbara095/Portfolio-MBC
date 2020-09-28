@@ -46,7 +46,8 @@ main {
 .container {
     background-color: rgb(26, 15, 51);
     max-width: 100% !important;
-    padding: 10px;
+    padding: 45px;
+    justify-content: space-between;
 } 
 
 .intro {
@@ -300,9 +301,8 @@ section img {
 .footer-header {
     color: #fff;
     padding: 15px;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
     width: 100%;
+    margin: auto;
 }
 
 .footer-text {
@@ -310,6 +310,6 @@ section img {
     color: #fff;
     margin-top: 40px;
     bottom: 4;
-    margin: 0 auto 0 auto !important;
+    margin: auto;
 }
 
